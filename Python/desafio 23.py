@@ -1,0 +1,6 @@
+num = int(input('Digite um número com 4 dígitos: '))
+n = str(num)
+print(f'unidade: {n[3]}')
+print(f'Dezena: {n[2]}')
+print(f'Centena: {n[1]}')
+print(f'milhar: {n[0]}')
